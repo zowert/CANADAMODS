@@ -10,6 +10,8 @@
       </DownloadableItem>
     <DownloadableItem :image="gunImage5" link="https://drive.google.com/file/d/1t7g0Z7XMw2G2y9EZjJept_1WhatYnNhH/view?usp=sharing">   
       </DownloadableItem>
+      <DownloadableItem :image="gunImage6" link="https://drive.google.com/drive/folders/1n58gAz4epRIVit7jGv2fuXG30ocXg-mw">
+      </DownloadableItem>
   </GridDisplay>
 </template>
 
@@ -20,6 +22,7 @@ import gunImage2 from './../assets/images/4244242424242.png'
 import gunImage3 from './../assets/images/4rtyynovyypng_1690547250.png'
 import gunImage4 from './../assets/images/323.png'
 import gunImage5 from './../assets/images/232.png'
+import gunImage6 from './../assets/images/LEGOPBMODSgg-removebg-preview.png'
 import DownloadableItem from "../components/DownloadableItem.vue" 
 export default {
   components: {DownloadableItem, GridDisplay},
@@ -30,6 +33,7 @@ export default {
       gunImage3,
       gunImage4,
       gunImage5,
+      gunImage6,
     }
   }  
 }
